@@ -47,13 +47,6 @@ class Reduce extends Component {
                     //     return acc;
                     //     // starting point for your accumulator
                     // }, [])
-                    // .map( (giphy, index) => {
-                    //     return (
-                    //         <div key={index}>
-                    //         <img src={giphy.images.fixed_width_small.url} />
-                    //         </div>
-                    //     )
-                    // })
                 }
                 {
                     this.state.search.data
@@ -70,13 +63,6 @@ class Reduce extends Component {
                         return acc;
                         // starting point for your accumulator
                     }, 0)
-                    // .map( (giphy, index) => {
-                    //     return (
-                    //         <div key={index}>
-                    //         <img src={giphy.images.fixed_width_small.url} />
-                    //         </div>
-                    //     )
-                    // })
                 }
                 
             </div>
